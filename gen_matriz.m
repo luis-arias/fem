@@ -1,6 +1,5 @@
 function [ M ] = gen_matriz(n)
     a=[1 -1 ; -1 1];
-    M=n*a;
     for i=1:n
         j=1;
         M(i:i+j,i:i+j)=a;
